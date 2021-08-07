@@ -1,0 +1,63 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+* {
+  align-self: center;
+  text-align: center;
+}
+
+h1 {
+  color: #5e408a;
+}
+img {
+  width: 400px;
+}
+#thirdDiv {
+  height: 600px;
+  width: 500px;
+  background-color: #a8a5a8;
+  padding: 50px;
+  border-style: dotted;
+  border-color: #0026ff;
+  align-self: center;
+}
+#spanID {
+  font-size: 18px;
+  margin: 50px;
+}
+/* Otra forma de centrar todo
+body {
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.divClass {
+  text-align: center;
+}
+
+h1 {
+  color: #5e408a;
+}
+img {
+  width: 400px;
+}
+#thirdDiv {
+  position: relative;
+  height: 600px;
+  width: 500px;
+  background-color: #a8a5a8;
+  padding: 50px;
+  border-style: dotted;
+  border-color: #0026ff;
+  align-self: center;
+}
+#spanID {
+  position: absolute;
+  font-size: 18px;
+  margin: 50px;
+  width: 100%;
+}
+*/
